@@ -1,9 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/*-- ALL PAGE --*/
 body {
     font-family: 'consolas', sans-serif;
     font-weight: 400;
@@ -25,6 +20,7 @@ body {
     background-color: #666dd3;
 }
 
+/*-- PAGE INDEX --*/
 .header {
     height: 35vh;
     background-image: url('../images/image1_768.jpg');
@@ -37,16 +33,16 @@ body {
     padding-top: 9rem;
 }
 
-.main {
+.content {
     padding-left: 1rem;
     padding-right: 2rem;
 }
 
 
-.main h3{
+.content h3{
     font-family: 'consolas', sans-serif;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .p{
@@ -112,9 +108,10 @@ body {
     margin-left: -1rem;
     margin-right: -2rem;
     padding-left: 1rem;
-    height: 115vh;
+    height: 118vh;
     background-color: #a9acd1;
     text-align: center;
+    justify-content: center;
     font-size: 25px;
 }
 
@@ -131,8 +128,8 @@ body {
     height: 250px;
     background-color: #666dd3;
     border-radius: 50%;
-    margin-left: 1rem;
-    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
     padding-top: 3rem;
     font-family: 'consolas', sans-serif;
     font-size: 18px;
@@ -176,7 +173,7 @@ body {
     }
 
     .rounded_circle {
-        margin-left: 8rem;        
+        margin-left: 4rem;        
     }
 }
 
@@ -207,11 +204,11 @@ body {
     }
 
     .col3  {
-        width: 47vh;
+        width: 30vh;
     }
 
     .rounded_circle {
-        margin-left: 11rem;        
+        margin-left: 2rem;        
     }
 }
 
@@ -258,9 +255,7 @@ body {
     }
 
     .rounded_circle {
-        margin-left: 5rem;     
-        width: 23vh; 
-        height: 23vh;  
+        margin-left: 1rem;         
     }
 }
 
@@ -296,7 +291,7 @@ body {
     }
 
     .col3  {
-        width: 38vh;
+        width: 30vh;
     }
 
     .bandInfo {
@@ -304,9 +299,8 @@ body {
     }
 
     .rounded_circle {
-        margin-left: 5rem;  
-        width: 30vh; 
-        height: 30vh;  
+        margin-left: 7rem;  
+        
     }
 
     .Info {
@@ -347,5 +341,18 @@ body {
 
     .rounded_circle {
         margin-left: 10rem;        
-    }
+    } 
 }
+
+/*-- PAGE EVENEMENT--*/
+
+.colorContent{
+    background-color: #a9acd1;
+    height: 85vh;
+}
+
+.pageContentLg8 {
+    background-color: white;
+    margin-top: 9rem;
+}
+
