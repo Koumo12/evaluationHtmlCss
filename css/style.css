@@ -65,8 +65,7 @@ body {
 
 .Info {
     margin-left: -1rem;
-    margin-right: -2rem;
-    padding-left: 1rem;
+    margin-right: -2rem;    
     margin-top: 5rem;   
     height: 145vh;
     background-image: url('../images/image2.jpg');
@@ -74,14 +73,14 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 
 .info h3 {
-    color: black;
-    
+    color: black;    
 }
+
 
 .col-md-3 {
     margin-top: 0rem;
@@ -107,7 +106,7 @@ body {
 .bandInfo {
     margin-left: -1rem;
     margin-right: -2rem;
-    padding-left: 1rem;
+    padding-left: -1rem;
     height: 118vh;
     background-color: #a9acd1;
     text-align: center;
@@ -123,14 +122,17 @@ body {
     padding-right: 3rem;
 }
 
-.rounded_circle {
+
+.circle {
+    background-color: #666dd3;
     width: 250px;
     height: 250px;
-    background-color: #666dd3;
     border-radius: 50%;
-    margin-left: 0rem;
-    margin-top: 1rem;
-    padding-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 0rem;
+    padding-top: 5rem;
+    justify-content: center;
+
     font-family: 'consolas', sans-serif;
     font-size: 18px;
     color: white;
@@ -156,6 +158,20 @@ body {
     text-align: center;
 }
 
+
+/*-- PAGE EVENEMENT--*/
+
+.colorContent{
+    background-color: #a9acd1;
+    height: 85vh;
+}
+
+.pageContentLg8 {
+    background-color: white;
+    margin-top: 9rem;
+}
+
+
 @media ( min-width: 576px) {
     .header {
         height: 55vh;        
@@ -172,8 +188,14 @@ body {
         height: 400px;
     }
 
-    .rounded_circle {
-        margin-left: 4rem;        
+    .bandInfo {
+        padding-left: 7rem;
+        padding-right: 4rem;
+    }
+
+    .circle {
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
 
@@ -184,11 +206,6 @@ body {
         font-size: 40px;
         padding-top: 16rem;
     } 
-
-    .row {
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
     
     h3{
         padding-top: 5rem;
@@ -200,15 +217,26 @@ body {
     }
 
     .Info {
-        height: 137vh;
+        height: 62vh;
+        
+        padding-left: 1rem;
+        padding-right: 3rem;        
+    }
+
+    .bandInfo {
+        height: 62vh;
+
+        padding-left: 1rem;
+        padding-right: 0rem; 
+    }
+
+    .circle {
+        margin-left: 0rem;
+        margin-right: 1rem;
     }
 
     .col3  {
         width: 30vh;
-    }
-
-    .rounded_circle {
-        margin-left: 2rem;        
     }
 }
 
@@ -225,8 +253,8 @@ body {
     }
 
     p {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 
     .iframes {
@@ -246,20 +274,30 @@ body {
         width: 30vh;
     }
 
+    .Info {
+        padding-left: 4rem;
+        padding-right: 7rem;
+    }
+
     .bandInfo {
         height: 55vh;
+
+        padding-left: 4rem;
+        padding-right: 4rem;
+        justify-content: space-between;
     }
 
     .bandInfoH3{
         padding-top: 3rem;
     }
 
-    .rounded_circle {
-        margin-left: 1rem;         
+    .circle {
+        width: 35vh;
     }
 }
 
-@media (min-width: 1200px) {  
+@media (min-width: 1200px) 
+{  
     .header {
         height: 85vh;
         font-size: 60px;
@@ -294,18 +332,24 @@ body {
         width: 30vh;
     }
 
-    .bandInfo {
-        height: 70vh;
+    .Info {
+        padding-left: 4rem;
+        padding-right: 8rem;
     }
 
-    .rounded_circle {
-        margin-left: 7rem;  
-        
+    .bandInfo {
+        height: 70vh;
+
+        padding-left: 5rem;
+        padding-right: 3rem;
     }
 
     .Info {
-        height: 70vh;
-        
+        height: 70vh;        
+    }
+
+    .circle {
+        width: 40vh;
     }
 }
 
@@ -321,6 +365,7 @@ body {
         padding-top: 5rem;
     }
 
+
     p {
         padding-left: 6rem;
         padding-right: 6rem;
@@ -331,28 +376,23 @@ body {
         height: 300px;
     }
 
+    .Info {
+        padding-left: 7rem;
+        padding-right: 13rem;
+    }
+
     .bandInfo {
         height: 50vh;
+/* 
+        padding-left: 7rem;
+        padding-right: 13rem; */
     }
 
     .bandInfoH3{
         padding-top: 2rem;
     }
 
-    .rounded_circle {
-        margin-left: 10rem;        
-    } 
+    .circle {
+        width: 55vh;
+    }
 }
-
-/*-- PAGE EVENEMENT--*/
-
-.colorContent{
-    background-color: #a9acd1;
-    height: 85vh;
-}
-
-.pageContentLg8 {
-    background-color: white;
-    margin-top: 9rem;
-}
-
