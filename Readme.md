@@ -14,4 +14,4 @@ Project News Horizons
 
 2- Events page
 
-    - creation of the table in which are listed the events to come.
+    - creation of the table in which are listed the events to come
