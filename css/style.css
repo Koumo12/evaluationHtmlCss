@@ -7,7 +7,7 @@ body {
     color: black;
 }
 
-.bt {
+.button {
     border: 0px solid black;
     background-color: ligth;
     color: white;
@@ -171,6 +171,7 @@ body {
     margin-top: 9rem;
 }
 
+/*-- PMEDIA QUERY --*/
 
 @media ( min-width: 576px) {
     .header {
@@ -349,7 +350,7 @@ body {
     }
 
     .circle {
-        width: 40vh;
+        width: 30vh;
     }
 }
 
@@ -383,9 +384,9 @@ body {
 
     .bandInfo {
         height: 50vh;
-/* 
+
         padding-left: 7rem;
-        padding-right: 13rem; */
+        padding-right: 13rem;
     }
 
     .bandInfoH3{
@@ -393,6 +394,6 @@ body {
     }
 
     .circle {
-        width: 55vh;
+        width: 30vh;
     }
 }
