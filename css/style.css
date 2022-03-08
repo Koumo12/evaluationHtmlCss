@@ -320,8 +320,8 @@ body {
     }
 
     .iframe {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         padding-top: 3rem;
     }
     
@@ -350,7 +350,7 @@ body {
     }
 
     .circle {
-        width: 30vh;
+        width: 40vh;
     }
 }
 
