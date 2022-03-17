@@ -218,22 +218,22 @@ body {
     }
 
     .Info {
-        height: 70vh;
+        height: 90vh;
         
         padding-left: 1rem;
         padding-right: 3rem;        
     }
 
     .bandInfo {
-        height: 62vh;
+        height: 70vh;
 
-        padding-left: 1rem;
-        padding-right: 0rem; 
+        padding-left: 0rem;
+        padding-right: 3rem; 
     }
 
     .circle {
         margin-left: 0rem;
-        margin-right: 1rem;
+        margin-right: 0rem;
     }
 
     .col3  {
@@ -264,7 +264,7 @@ body {
     }
 
     .Info {
-        height: 65vh;
+        height: 85vh;
     }
 
     .col-md-3 {
@@ -281,7 +281,7 @@ body {
     }
 
     .bandInfo {
-        height: 55vh;
+        height: 70vh;
 
         padding-left: 4rem;
         padding-right: 4rem;
